@@ -5,7 +5,7 @@ import MainNav from "@/components/main-nav";
 import Container from "@/components/ui/container";
 import NavbarActions from "@/components/navbar-actions";
 import getCategories from "@/actions/get-categories";
-import misalLogo from "@/public/misal.png"
+import misalLogo from "@/public/misal.svg"
 
 const Navbar = async () => {
   const categories = await getCategories();
